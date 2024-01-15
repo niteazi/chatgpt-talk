@@ -17,7 +17,7 @@ public class textToSpeech : MonoBehaviour
     {
         try
         {
-            var credentials = new BasicAWSCredentials("AKIA4MTWLCAZQNJ2Z25I", "qVKfKo4U+5b5o7BIVPuDejFD/yiJgsDHF1/Uw0tA");
+            var credentials = new BasicAWSCredentials("", "");
 
 
             using (var client = new AmazonPollyClient(credentials, Amazon.RegionEndpoint.EUCentral1))
